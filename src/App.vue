@@ -71,6 +71,33 @@ const projects = [
     live: 'https://ecozed-ld-promt-gen.vercel.app/',
     accent: 'from-fuchsia-500 to-purple-500',
     type: 'Open Source • AI'
+  },
+  {
+    title: 'Delivoc',
+    url: 'https://www.delivoc.com/',
+    desc: 'Landing page for Delivoc app — turn travel into income. Connects travelers with delivery requests along their route, flexible shipping options & secure mediated payments.',
+    tags: ['Landing Page', 'Marketplace', 'Logistics'],
+    live: 'https://www.delivoc.com/',
+    accent: 'from-orange-500 to-red-500',
+    type: 'Landing Page • Mobile App'
+  },
+  {
+    title: 'Almas Online',
+    url: 'https://almas-online.com/',
+    desc: 'E-commerce store for selling diamonds in Dubai — recreation with new framework, fixing performance issues. Fast, luxury UX optimized for jewelry sales.',
+    tags: ['E-commerce', 'Rebuild', 'Performance Fix'],
+    live: 'https://almas-online.com/',
+    accent: 'from-zinc-700 to-zinc-900',
+    type: 'E-commerce • Rebuild'
+  },
+  {
+    title: 'MagicTouch Plus',
+    url: 'https://magictouchplus.com/',
+    desc: 'PPF products showcase site — fixed bugs and added new features. 30 years PPF expertise, OEM solutions, Magic Shield/Core product galleries.',
+    tags: ['Bug Fix', 'Features', 'E-commerce Showcase'],
+    live: 'https://magictouchplus.com/',
+    accent: 'from-slate-600 to-slate-800',
+    type: 'Maintenance • Features'
   }
 ]
 
@@ -402,7 +429,7 @@ const scrollTo = (id) => {
         <h2 class="text-sm font-semibold tracking-widest uppercase text-zinc-400">Selected Work</h2>
         <p class="mt-2 text-xl font-semibold tracking-tight text-zinc-900">Web Projects</p>
       </div>
-      <p class="text-sm text-zinc-500">6 featured • Web Apps + Landing Pages + Open Source • Live</p>
+      <p class="text-sm text-zinc-500">9 featured • E-commerce + Web Apps + Landing Pages • Live</p>
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
