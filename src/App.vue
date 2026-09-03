@@ -15,6 +15,9 @@ const techStack = [
   { name: 'Docker', cat: 'DevOps', color: 'bg-blue-50 text-blue-700 border-blue-200' },
   { name: 'Cyber Security', cat: 'Security', color: 'bg-red-50 text-red-700 border-red-200' },
   { name: 'Reverse Eng.', cat: 'Security', color: 'bg-amber-50 text-amber-700 border-amber-200' },
+  { name: 'n8n', cat: 'Automation', color: 'bg-pink-50 text-pink-700 border-pink-200' },
+  { name: 'Automation', cat: 'Workflow', color: 'bg-teal-50 text-teal-700 border-teal-200' },
+  { name: 'AI', cat: 'AI • Daily', color: 'bg-fuchsia-50 text-fuchsia-700 border-fuchsia-200' },
 ]
 
 const projects = [
@@ -265,6 +268,14 @@ const scrollTo = (id) => {
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19.05 4.91A9.82 9.82 0 0012.04 2a9.86 9.86 0 00-8.5 14.86L2 22l5.26-1.38a9.86 9.86 0 004.78 1.22h.01a9.86 9.86 0 006.99-17.93zM12.04 20.04a8.04 8.04 0 01-4.1-1.12l-.29-.17-3.12.82.82-3.04-.19-.31a8.04 8.04 0 01-1.24-4.3 8.04 8.04 0 018.08-8.04c2.15 0 4.17.84 5.69 2.36a8 8 0 012.35 5.68 8.04 8.04 0 01-8.04 8.12zm6.91-11.31a6.56 6.56 0 00-4.65-1.93 6.56 6.56 0 00-6.59 6.59c0 1.16.3 2.29.88 3.29l-1.08 3.95 4.04-1.06a6.53 6.53 0 003.11.79h.01a6.56 6.56 0 004.66-11.23l-.38-.4zM16.6 14.18c-.2-.1-1.18-.58-1.36-.65-.18-.07-.31-.1-.45.1s-.51.65-.63.79c-.11.13-.22.15-.42.05-.2-.1-.84-.31-1.6-.99-.59-.53-.99-1.18-1.1-1.38-.11-.2-.01-.31.09-.41.08-.08.2-.22.3-.33.1-.11.13-.19.2-.31.07-.13.03-.24-.02-.33-.05-.1-.45-1.08-.62-1.48-.16-.39-.32-.34-.45-.35h-.38c-.13 0-.33.05-.51.24-.18.2-.67.66-.67 1.6s.69 1.86.79 2c.1.13 1.36 2.08 3.3 2.92.46.2.82.32 1.1.41.46.15.88.13 1.21.08.37-.05 1.18-.48 1.35-.95.17-.47.17-.87.12-.95-.05-.08-.18-.13-.38-.23z"/></svg>
             WhatsApp
           </a>
+          <a href="https://www.youtube.com/@IhabZaidiDev" target="_blank" class="inline-flex items-center gap-2 bg-white border border-zinc-200 px-5 py-3 rounded-full text-sm font-medium text-zinc-700 hover:border-zinc-300 hover:bg-zinc-50 transition">
+            <svg class="w-4 h-4 text-red-600" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 12.04a3 3 0 00-2.1-2.12c-1.86-.5-9.4-.5-9.4-.5s-7.54 0-9.4.5A3 3 0 00.5 12.04a31 31 0 00-.5 5.96 3 3 0 002.1 2.12c1.86.5 9.4.5 9.4.5s7.54 0 9.4-.5a3 3 0 002.1-2.12 31 31 0 00.5-5.96zM9.75 16.5v-9l6.5 4.5z"/></svg>
+            YouTube
+          </a>
+          <a href="https://www.linkedin.com/in/ihabzaidi/" target="_blank" class="inline-flex items-center gap-2 bg-white border border-zinc-200 px-5 py-3 rounded-full text-sm font-medium text-zinc-700 hover:border-zinc-300 hover:bg-zinc-50 transition">
+            <svg class="w-4 h-4 text-[#0A66C2]" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.27a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm13 12.27h-3v-5.6c0-1.34-.48-2.26-1.7-2.26-.93 0-1.48.62-1.72 1.22-.09.22-.11.52-.11.83v5.81h-3s.04-9.44 0-11h3v1.56c.4-.61 1.11-1.49 2.7-1.49 1.97 0 3.45 1.29 3.45 4.06v6.87z"/></svg>
+            LinkedIn
+          </a>
         </div>
 
         <div class="mt-8 flex flex-wrap items-center gap-6 text-sm text-zinc-500 border-t border-zinc-100 pt-6">
@@ -304,13 +315,14 @@ const scrollTo = (id) => {
           <div class="mt-6 bg-white border border-zinc-100 rounded-2xl p-5">
             <div class="text-xs font-semibold tracking-widest text-zinc-400 uppercase">Current focus</div>
             <p class="mt-2 text-sm leading-6 text-zinc-600">
-              Leading dev teams, shipping Vue/Nuxt & Flutter apps, Odoo + OWL modules — all with <span class="font-medium text-zinc-900">AI as daily assistant</span> — and streaming to help beginners start in digital.
+              Leading dev teams, shipping Vue/Nuxt & Flutter apps, Odoo + OWL modules — all with <span class="font-medium text-zinc-900">AI as daily assistant</span> — and streaming to help beginners start in digital. Strong <span class="font-medium text-zinc-900">problem solver</span>.
             </p>
             <div class="mt-4 flex flex-wrap gap-2">
               <span class="text-xs px-2.5 py-1 rounded-full bg-zinc-900 text-white">Vue.js</span>
               <span class="text-xs px-2.5 py-1 rounded-full bg-zinc-100 border border-zinc-200 text-zinc-700">Flutter</span>
               <span class="text-xs px-2.5 py-1 rounded-full bg-zinc-100 border border-zinc-200 text-zinc-700">Odoo</span>
               <span class="text-xs px-2.5 py-1 rounded-full bg-violet-50 border border-violet-200 text-violet-700">AI Daily</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-700">Problem Solving</span>
             </div>
           </div>
         </div>
@@ -340,6 +352,12 @@ const scrollTo = (id) => {
       <span class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full bg-white border border-zinc-200 text-zinc-700">
         Reverse Engineering essentials
       </span>
+      <span class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full bg-pink-50 border border-pink-200 text-pink-700">
+        n8n • Automation
+      </span>
+      <span class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full bg-fuchsia-50 border border-fuchsia-200 text-fuchsia-700">
+        AI — daily assistant
+      </span>
     </div>
   </section>
 
@@ -362,6 +380,7 @@ const scrollTo = (id) => {
                 <li>Manage project scope, timeline & priorities — help devs daily on tasks & technical issues</li>
                 <li>Check code quality via reviews & standards — enforce clean, scalable, maintainable architecture</li>
                 <li>Design solutions to <span class="font-medium text-zinc-700">lower project cost</span> while keeping quality & performance</li>
+                <li><span class="font-medium text-zinc-900">Great problem solver</span> — known for unblocking complex issues quickly</li>
                 <li>Vue / React / Next + Flutter + Odoo/OWL + Express + Docker — from idea to production</li>
               </ul>
             </div>
@@ -395,6 +414,45 @@ const scrollTo = (id) => {
     </div>
   </section>
 
+  <!-- KEY ACHIEVEMENT -->
+  <section id="achievement" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <h2 class="text-sm font-semibold tracking-widest uppercase text-zinc-400">Key Achievement</h2>
+    <div class="mt-4 bg-zinc-900 rounded-[20px] p-6 sm:p-8 text-white overflow-hidden relative">
+      <div class="absolute -top-16 -right-16 w-64 h-64 bg-violet-600/20 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-16 -left-16 w-64 h-64 bg-emerald-600/10 rounded-full blur-3xl"></div>
+      <div class="relative flex flex-col lg:flex-row gap-6 items-start lg:items-center justify-between">
+        <div class="flex gap-4">
+          <div class="w-12 h-12 rounded-xl bg-white text-zinc-900 flex items-center justify-center shrink-0">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-semibold text-white">Speech-to-Speech Translation — 20s → ~1s</h3>
+            <p class="mt-2 text-sm leading-6 text-zinc-300 max-w-2xl">
+              Solved critical performance bottleneck in speech-to-speech translation: cut latency from <span class="font-semibold text-white">20 seconds</span> to <span class="font-semibold text-emerald-400">~1 second or less</span> — <span class="text-white">20× faster</span>. Great problem-solving, audio pipeline optimization & AI integration.
+            </p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/20 text-white">Problem Solving</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-emerald-500 text-white">20s → ~1s</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/20 text-white">Speech-to-Speech</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/20 text-white">Performance</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 shrink-0">
+          <div class="text-center bg-white/10 border border-white/10 rounded-2xl px-5 py-3">
+            <div class="text-xs text-zinc-400 uppercase tracking-widest">Before</div>
+            <div class="text-xl font-bold text-zinc-300 line-through">20s</div>
+          </div>
+          <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          <div class="text-center bg-emerald-500 rounded-2xl px-5 py-3">
+            <div class="text-xs text-white/80 uppercase tracking-widest">After</div>
+            <div class="text-xl font-bold text-white">~1s</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- TEACHING & STREAMING -->
   <section id="teaching" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
     <div class="bg-gradient-to-br from-violet-50 to-indigo-50 border border-violet-100 rounded-[20px] p-6 sm:p-7 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
@@ -415,9 +473,9 @@ const scrollTo = (id) => {
           </div>
         </div>
       </div>
-      <a href="#contact" @click.prevent="scrollTo('#contact')" class="shrink-0 inline-flex items-center gap-2 bg-zinc-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-black transition">
-        Join Stream
-        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      <a href="https://www.youtube.com/@IhabZaidiDev" target="_blank" class="shrink-0 inline-flex items-center gap-2 bg-red-600 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-red-700 transition">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 12.04a3 3 0 00-2.1-2.12c-1.86-.5-9.4-.5-9.4-.5s-7.54 0-9.4.5A3 3 0 00.5 12.04a31 31 0 00-.5 5.96 3 3 0 002.1 2.12c1.86.5 9.4.5 9.4.5s7.54 0 9.4-.5a3 3 0 002.1-2.12 31 31 0 00.5-5.96zM9.75 16.5v-9l6.5 4.5z"/></svg>
+        YouTube @IhabZaidiDev
       </a>
     </div>
   </section>
@@ -568,11 +626,17 @@ const scrollTo = (id) => {
       </div>
       <div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-zinc-400">
         <span>© {{ new Date().getFullYear() }} Ihab ZAIDI — Senior Software Developer</span>
-        <div class="flex gap-4">
+        <div class="flex gap-4 items-center">
+          <a href="https://www.youtube.com/@IhabZaidiDev" target="_blank" class="inline-flex items-center gap-1.5 hover:text-white transition">
+            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 12.04a3 3 0 00-2.1-2.12c-1.86-.5-9.4-.5-9.4-.5s-7.54 0-9.4.5A3 3 0 00.5 12.04a31 31 0 00-.5 5.96 3 3 0 002.1 2.12c1.86.5 9.4.5 9.4.5s7.54 0 9.4-.5a3 3 0 002.1-2.12 31 31 0 00.5-5.96zM9.75 16.5v-9l6.5 4.5z"/></svg>
+            YouTube
+          </a>
+          <a href="https://www.linkedin.com/in/ihabzaidi/" target="_blank" class="inline-flex items-center gap-1.5 hover:text-white transition">
+            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.27a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm13 12.27h-3v-5.6c0-1.34-.48-2.26-1.7-2.26-.93 0-1.48.62-1.72 1.22-.09.22-.11.52-.11.83v5.81h-3s.04-9.44 0-11h3v1.56c.4-.61 1.11-1.49 2.7-1.49 1.97 0 3.45 1.29 3.45 4.06v6.87z"/></svg>
+            LinkedIn
+          </a>
           <a href="https://langaroo.co/" target="_blank" class="hover:text-white transition">Langaroo</a>
           <a href="https://invento-kappa.vercel.app/" target="_blank" class="hover:text-white transition">Invento</a>
-          <a href="#" class="hover:text-white transition">LinkedIn</a>
-          <a href="#" class="hover:text-white transition">GitHub</a>
         </div>
       </div>
     </div>
