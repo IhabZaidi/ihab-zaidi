@@ -21,8 +21,8 @@ const projects = [
   {
     title: 'Langaroo',
     url: 'https://langaroo.co/',
-    desc: 'Landing page for Langaroo mobile app — language learning platform. Clean, fast marketing site driving app installs.',
-    tags: ['Landing Page', 'Mobile App', 'Next.js'],
+    desc: 'Landing page for Langaroo mobile app — translated chat, audio & video calls, text and image translation and more. Real-time cross-language communication.',
+    tags: ['Landing Page', 'Mobile App', 'Chat • Calls • Images'],
     live: 'https://langaroo.co/',
     accent: 'from-violet-500 to-indigo-500',
     type: 'Landing Page • Mobile App'
@@ -39,11 +39,38 @@ const projects = [
   {
     title: 'Subtitles.tech',
     url: 'https://subtitles.tech/',
-    desc: 'Full web app — generate, edit & sync subtitles online. Lightweight tool for creators, no install needed.',
-    tags: ['Web App', 'Vue.js', 'FFmpeg'],
+    desc: 'Full web app — transcribe & translate any video/audio in seconds, add dubbing to any video, get summary and more. Fast, AI-powered for creators.',
+    tags: ['Web App', 'Transcribe • Translate', 'Dubbing • Summary'],
     live: 'https://subtitles.tech/',
     accent: 'from-sky-500 to-cyan-500',
     type: 'Web App'
+  },
+  {
+    title: 'Arabyati',
+    url: 'https://arabyati.com/ar/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/',
+    desc: 'Landing page for Arabyati app — teaches non-Arab speakers Arabic in a fun, interactive way. Short lessons, drama videos & smart exercises from beginner to fluent.',
+    tags: ['Landing Page', 'Education', 'Arabic LMS'],
+    live: 'https://arabyati.com/ar/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/',
+    accent: 'from-amber-500 to-orange-500',
+    type: 'Landing Page • Education'
+  },
+  {
+    title: 'MarketFy Pro',
+    url: 'https://www.marketfy.pro/',
+    desc: 'Chrome extension + web app — helps sellers mass-post products on Facebook Marketplace across all 58 Algerian wilayas in a few clicks. Save hours of manual work.',
+    tags: ['Chrome Extension', 'Web App', 'Automation'],
+    live: 'https://www.marketfy.pro/',
+    accent: 'from-emerald-500 to-teal-500',
+    type: 'Extension • Web App'
+  },
+  {
+    title: 'Ecozed — Ad Content Studio',
+    url: 'https://ecozed-ld-promt-gen.vercel.app/',
+    desc: 'Open-source AI tool for marketers — create full ad content in minutes: script, text, image, video & landing page from one AI prompt. Free, fast, minutes not hours.',
+    tags: ['Open Source', 'AI Tool', 'Ads • Landing Page'],
+    live: 'https://ecozed-ld-promt-gen.vercel.app/',
+    accent: 'from-fuchsia-500 to-purple-500',
+    type: 'Open Source • AI'
   }
 ]
 
@@ -375,10 +402,10 @@ const scrollTo = (id) => {
         <h2 class="text-sm font-semibold tracking-widest uppercase text-zinc-400">Selected Work</h2>
         <p class="mt-2 text-xl font-semibold tracking-tight text-zinc-900">Web Projects</p>
       </div>
-      <p class="text-sm text-zinc-500">3 featured • Vue / React • Live</p>
+      <p class="text-sm text-zinc-500">6 featured • Web Apps + Landing Pages + Open Source • Live</p>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-5">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
       <article v-for="p in projects" :key="p.title" class="group bg-white border border-zinc-200 rounded-[20px] overflow-hidden hover:shadow-md transition flex flex-col">
         <div class="h-1.5 w-full bg-gradient-to-r" :class="p.accent"></div>
         <div class="p-6 flex flex-col flex-1">
